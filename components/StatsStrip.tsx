@@ -1,4 +1,6 @@
-import Link from "next/link";
+"use client";
+
+import AnimatedCounter from "@/components/AnimatedCounter";
 
 const stats = [
   { value: "3", label: "Core Services" },
@@ -18,7 +20,7 @@ export default function StatsStrip() {
                 <div className="hidden lg:block absolute left-0 top-1/2 -translate-y-1/2 w-px h-12 bg-gray-200" />
               )}
               <p className="text-4xl md:text-5xl font-black gradient-text mb-2">
-                {stat.value}
+                <AnimatedCounter value={stat.value} />
               </p>
               <p className="text-sm text-gray-500 font-medium">{stat.label}</p>
             </div>

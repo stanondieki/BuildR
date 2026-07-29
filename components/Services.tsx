@@ -1,12 +1,15 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import InteractiveCard from "@/components/InteractiveCard";
 
 const services = [
   {
     title: "Web & App Development",
     short: "Fast, reliable websites and mobile apps built for scale.",
     image:
-      "/images/developer.jpg",
+      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80",
     features: [
       "Custom websites & web apps",
       "Mobile apps (iOS & Android)",
@@ -18,7 +21,7 @@ const services = [
     title: "UI/UX Design",
     short: "Interfaces that look premium and feel effortless to use.",
     image:
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&w=800&q=80",
     features: [
       "User research & wireframing",
       "Interface design",
@@ -30,7 +33,7 @@ const services = [
     title: "Tech Consulting",
     short: "Smart technology decisions that save time and money.",
     image:
-      "/images/tech-consulting.jpg",
+      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80",
     features: [
       "Stack selection",
       "Roadmap planning",
@@ -58,7 +61,7 @@ export default function Services() {
 
         <div className="grid md:grid-cols-3 gap-6">
           {services.map((service) => (
-            <div key={service.title} className="card group overflow-hidden">
+            <InteractiveCard key={service.title} className="card group overflow-hidden">
               <div className="relative aspect-video rounded-xl overflow-hidden mb-6">
                 <Image
                   src={service.image}
@@ -104,7 +107,7 @@ export default function Services() {
                   />
                 </svg>
               </Link>
-            </div>
+            </InteractiveCard>
           ))}
         </div>
       </div>

@@ -8,7 +8,7 @@ import HowWeWork from "@/components/HowWeWork";
 import Approach from "@/components/Approach";
 
 export const metadata: Metadata = {
-  title: "Our Process — Buildr",
+  title: "Our Process — Turkidd Devs",
   description:
     "A clear, step-by-step process from idea to launch. No surprises, no guesswork — just a straightforward path to building your digital product.",
 };
@@ -48,8 +48,8 @@ export default function ProcessPage() {
           <div className="container-pad">
             <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-2xl shadow-gray-200/60 max-w-5xl mx-auto">
               <Image
-                src="/images/team1.jpg"
-                alt="Team collaborating on a project plan"
+                src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80"
+                alt="African team collaborating on a project plan"
                 fill
                 className="object-cover"
                 sizes="100vw"

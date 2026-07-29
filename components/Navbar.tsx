@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
@@ -40,9 +41,14 @@ export default function Navbar() {
     >
       <nav className="container-pad flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-1 shrink-0">
-          <span className="text-2xl font-black text-gold-400">B</span>
-          <span className="text-xl font-bold text-gray-900">uildr</span>
+        <Link href="/" className="shrink-0">
+          <Image
+            src="/TD_logo.png"
+            alt="Turkidd Devs"
+            width={70}
+            height={70}
+            className="rounded-full"
+          />
         </Link>
 
         {/* Desktop nav */}

@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import TypeWriter from "@/components/TypeWriter";
 
 export default function Hero() {
   return (
@@ -20,8 +23,14 @@ export default function Hero() {
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-[1.05] mb-6 animate-fade-up">
               We Help Businesses{" "}
-              <span className="gradient-text">Build Digital Products</span>{" "}
-              That Actually Work.
+              <span className="gradient-text">
+                <TypeWriter
+                  words={["Build Websites", "Launch Apps", "Grow Online", "Scale Fast"]}
+                  typingSpeed={80}
+                  deletingSpeed={50}
+                  pauseDuration={1800}
+                />
+              </span>
             </h1>
             <p
               className="text-lg md:text-xl text-gray-500 mb-10 max-w-xl leading-relaxed animate-fade-up"
@@ -51,8 +60,8 @@ export default function Hero() {
           >
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl shadow-gray-200/60">
               <Image
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
-                alt="Team collaborating on a laptop"
+                src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80"
+                alt="African tech team collaborating on a project"
                 fill
                 className="object-cover"
                 priority

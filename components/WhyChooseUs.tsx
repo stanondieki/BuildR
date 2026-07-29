@@ -15,9 +15,9 @@ export default function WhyChooseUs() {
         {/* Why businesses choose us */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start mb-20">
           <div className="max-w-3xl">
-            <p className="section-label">Why Buildr</p>
+            <p className="section-label">Why Turkidd Devs</p>
             <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
-              Why Businesses Continue To Choose Buildr.
+              Why Businesses Continue To Choose Turkidd Devs.
             </h2>
             <p className="text-lg text-gray-500 mb-8 leading-relaxed">
               Businesses work with us because we focus on real business outcomes,

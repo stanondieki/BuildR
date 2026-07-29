@@ -10,9 +10,9 @@ import Comparison from "@/components/Comparison";
 import BusinessesWeHelp from "@/components/BusinessesWeHelp";
 
 export const metadata: Metadata = {
-  title: "Why Us — Buildr",
+  title: "Why Us — Turkidd Devs",
   description:
-    "Businesses choose Buildr because we focus on real business outcomes. We understand how digital products drive revenue, improve conversions, and scale with growth.",
+    "Businesses choose Turkidd Devs because we focus on real business outcomes. We understand how digital products drive revenue, improve conversions, and scale with growth.",
 };
 
 const stats = [
@@ -28,9 +28,9 @@ export default function WhyUsPage() {
       <Navbar />
       <main>
         <PageHeader
-          label="Why Buildr"
+          label="Why Turkidd Devs"
           breadcrumb="Why Us"
-          title="Why Businesses Continue To Choose Buildr"
+          title="Why Businesses Continue To Choose Turkidd Devs"
           description="Businesses work with us because we focus on real business outcomes, not just pretty code. We understand how digital products drive revenue and how technology choices impact long-term costs."
         />
 
@@ -60,8 +60,8 @@ export default function WhyUsPage() {
               <div className="relative">
                 <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl shadow-gray-200/60">
                   <Image
-                    src="/images/team2.jpg"
-                    alt="Team working together on a digital product"
+                    src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80"
+                    alt="African team working together on a digital product"
                     fill
                     className="object-cover"
                     sizes="(min-width: 1024px) 50vw, 100vw"

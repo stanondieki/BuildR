@@ -6,9 +6,9 @@ import PageHeader from "@/components/PageHeader";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact — Buildr",
+  title: "Contact — Turkidd Devs",
   description:
-    "Book a consultation with Buildr. Let's discuss your project and how we can build something that works for you.",
+    "Book a consultation with Turkidd Devs. Let's discuss your project and how we can build something that works for you.",
 };
 
 export default function ContactPage() {
@@ -32,8 +32,8 @@ export default function ContactPage() {
               <div className="relative hidden lg:block">
                 <div className="relative aspect-[3/4] max-w-md mx-auto rounded-2xl overflow-hidden shadow-2xl shadow-gray-200/60 sticky top-28">
                   <Image
-                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
-                    alt="Professional consultant ready to discuss your project"
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+                    alt="African professional ready to discuss your project"
                     fill
                     className="object-cover"
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -73,10 +73,10 @@ export default function ContactPage() {
                 <ContactForm />
 
                 {/* Contact info */}
-                <div className="grid sm:grid-cols-3 gap-6 pt-12 mt-12 border-t border-gray-200">
-                  <div className="flex flex-col gap-2">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-12 mt-12 border-t border-gray-200">
+                  <div className="flex items-center gap-3 min-w-0">
                     <svg
-                      className="w-5 h-5 text-gold-400"
+                      className="w-5 h-5 text-gold-400 shrink-0"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -89,15 +89,15 @@ export default function ContactPage() {
                       />
                     </svg>
                     <a
-                      href="mailto:hello@buildr.dev"
-                      className="text-gray-600 hover:text-gold-500 transition-colors text-sm"
+                      href="mailto:turkiddyoung@gmail.com"
+                      className="text-gray-600 hover:text-gold-500 transition-colors text-sm truncate"
                     >
-                      hello@buildr.dev
+                      turkiddyoung@gmail.com
                     </a>
                   </div>
-                  <div className="flex flex-col gap-2">
+                  <div className="flex items-center gap-3 min-w-0">
                     <svg
-                      className="w-5 h-5 text-gold-400"
+                      className="w-5 h-5 text-gold-400 shrink-0"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -110,15 +110,15 @@ export default function ContactPage() {
                       />
                     </svg>
                     <a
-                      href="tel:+0000000000"
+                      href="tel:+254716040462"
                       className="text-gray-600 hover:text-gold-500 transition-colors text-sm"
                     >
-                      +00 000 000 000
+                      0716 040 462
                     </a>
                   </div>
-                  <div className="flex flex-col gap-2">
+                  <div className="flex items-center gap-3 min-w-0">
                     <svg
-                      className="w-5 h-5 text-gold-400"
+                      className="w-5 h-5 text-gold-400 shrink-0"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"

@@ -75,8 +75,8 @@ export default function Approach() {
           <div className="relative">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl shadow-gray-200/60">
               <Image
-                src="/images/team1.jpg"
-                alt="Team mapping out a custom workflow"
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+                alt="African team mapping out a custom workflow"
                 fill
                 className="object-cover"
                 sizes="(min-width: 1024px) 50vw, 100vw"

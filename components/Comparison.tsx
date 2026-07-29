@@ -23,7 +23,7 @@ export default function Comparison() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="section-label">The Difference</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
-            What Changes When You Work With Buildr
+            What Changes When You Work With Turkidd Devs
           </h2>
         </div>
 
@@ -47,7 +47,7 @@ export default function Comparison() {
                 </svg>
               </div>
               <h2 className="text-xl md:text-2xl font-bold text-gray-400">
-                Without Buildr
+                Without Turkidd Devs
               </h2>
             </div>
             <ul className="space-y-4">
@@ -84,7 +84,7 @@ export default function Comparison() {
                 </svg>
               </div>
               <h2 className="text-xl md:text-2xl font-bold text-gray-900">
-                With Buildr
+                With Turkidd Devs
               </h2>
             </div>
             <ul className="space-y-4">

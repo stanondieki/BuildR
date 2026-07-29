@@ -8,7 +8,7 @@ import Approach from "@/components/Approach";
 import BusinessesWeHelp from "@/components/BusinessesWeHelp";
 
 export const metadata: Metadata = {
-  title: "Services — Buildr",
+  title: "Services — Turkidd Devs",
   description:
     "Web & app development, UI/UX design, and tech consulting. We build fast, reliable digital products that help businesses grow.",
 };
@@ -27,8 +27,8 @@ const services = [
       "Ongoing maintenance & support",
     ],
     image:
-      "/images/developer.jpg",
-    alt: "Developer working on code",
+      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1200&q=80",
+    alt: "African developer working on code",
   },
   {
     title: "UI/UX Design",
@@ -43,8 +43,8 @@ const services = [
       "Responsive design for all devices",
     ],
     image:
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80",
-    alt: "Designer working on UI design",
+      "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&w=1200&q=80",
+    alt: "African designer working on UI design",
   },
   {
     title: "Tech Consulting",
@@ -59,8 +59,8 @@ const services = [
       "Security & compliance review",
     ],
     image:
-      "/images/tech-consulting.jpg",
-    alt: "Team in a consulting meeting",
+      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80",
+    alt: "African team in a consulting meeting",
   },
 ];
 

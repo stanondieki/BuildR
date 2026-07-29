@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Buildr — We Build Digital Products That Grow Your Business",
+  title: "Turkidd Devs — We Build Digital Products That Grow Your Business",
   description:
-    "Buildr builds websites, apps, and digital products that help businesses grow. Web development, UI/UX design, and tech consulting.",
+    "Turkidd Devs builds websites, apps, and digital products that help businesses grow. Web development, UI/UX design, and tech consulting.",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/TD_logo.png",
+    apple: "/TD_logo.png",
   },
 };
 

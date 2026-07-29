@@ -67,16 +67,16 @@ export default function CTA() {
               <Link href="/contact" className="btn-gold">
                 Start a Project
               </Link>
-              <a href="tel:+0000000000" className="btn-outline">
+              <a href="tel:+254716040462" className="btn-outline">
                 Book a Call
               </a>
             </div>
 
             {/* Contact info */}
-            <div className="grid sm:grid-cols-3 gap-6 pt-8 border-t border-gray-200">
-              <div className="flex flex-col gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-gray-200">
+              <div className="flex items-center gap-3 min-w-0">
                 <svg
-                  className="w-5 h-5 text-gold-400"
+                  className="w-5 h-5 text-gold-400 shrink-0"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -89,15 +89,15 @@ export default function CTA() {
                   />
                 </svg>
                 <a
-                  href="mailto:hello@buildr.dev"
-                  className="text-gray-600 hover:text-gold-500 transition-colors text-sm"
+                  href="mailto:turkiddyoung@gmail.com"
+                  className="text-gray-600 hover:text-gold-500 transition-colors text-sm truncate"
                 >
-                  hello@buildr.dev
+                  turkiddyoung@gmail.com
                 </a>
               </div>
-              <div className="flex flex-col gap-2">
+              <div className="flex items-center gap-3 min-w-0">
                 <svg
-                  className="w-5 h-5 text-gold-400"
+                  className="w-5 h-5 text-gold-400 shrink-0"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -110,15 +110,15 @@ export default function CTA() {
                   />
                 </svg>
                 <a
-                  href="tel:+0000000000"
+                  href="tel:+254716040462"
                   className="text-gray-600 hover:text-gold-500 transition-colors text-sm"
                 >
-                  +00 000 000 000
+                  0716 040 462
                 </a>
               </div>
-              <div className="flex flex-col gap-2">
+              <div className="flex items-center gap-3 min-w-0">
                 <svg
-                  className="w-5 h-5 text-gold-400"
+                  className="w-5 h-5 text-gold-400 shrink-0"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

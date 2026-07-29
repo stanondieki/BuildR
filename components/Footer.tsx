@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const footerLinks = [
   { label: "Home", href: "/" },
@@ -15,9 +16,14 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl font-black text-gold-400">B</span>
-              <span className="text-xl font-bold text-gray-900">uildr</span>
+            <div className="mb-4">
+              <Image
+                src="/TD_logo.png"
+                alt="Turkidd Devs"
+                width={64}
+                height={64}
+                className="rounded-full"
+              />
             </div>
             <p className="text-gray-500 text-sm leading-relaxed max-w-xs">
               We build websites, apps, and digital products that help businesses
@@ -52,18 +58,18 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="mailto:hello@buildr.dev"
+                  href="mailto:turkiddyoung@gmail.com"
                   className="text-gray-500 hover:text-gold-500 transition-colors"
                 >
-                  hello@buildr.dev
+                  turkiddyoung@gmail.com
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:+0000000000"
+                  href="tel:+254716040462"
                   className="text-gray-500 hover:text-gold-500 transition-colors"
                 >
-                  +00 000 000 000
+                  0716 040 462
                 </a>
               </li>
               <li className="text-gray-500">Remote · Worldwide</li>
@@ -74,7 +80,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} Buildr. All rights reserved.
+            &copy; {new Date().getFullYear()} Turkidd Devs. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm">
             Built with precision. Designed to grow.
