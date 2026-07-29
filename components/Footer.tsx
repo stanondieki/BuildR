@@ -27,7 +27,7 @@ export default function Footer() {
             </div>
             <p className="text-gray-500 text-sm leading-relaxed max-w-xs">
               We build websites, apps, and digital products that help businesses
-              grow. Design, development, and consulting — all in one place.
+              grow. Design, development, and consulting all in one place.
             </p>
           </div>
 

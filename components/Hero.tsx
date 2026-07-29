@@ -38,7 +38,7 @@ export default function Hero() {
             >
               Many businesses struggle with outdated websites, clunky apps, and
               poor user experiences. We design and build fast, clean, reliable
-              digital products — so you stop losing customers and start growing
+              digital products so you stop losing customers and start growing
               online.
             </p>
             <div

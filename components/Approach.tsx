@@ -126,7 +126,7 @@ export default function Approach() {
             ))}
           </div>
           <p className="text-lg text-gold-500 font-semibold mb-6">
-            A product that supports how your business runs — and makes it easier
+            A product that supports how your business runs and makes it easier
             to grow.
           </p>
           <Link href="/process" className="btn-outline">
