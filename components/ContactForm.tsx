@@ -108,7 +108,7 @@ export default function ContactForm() {
         </div>
         <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
           <div
-            className="h-full bg-gradient-to-r from-gold-400 to-amber-500 rounded-full transition-all duration-500 ease-out"
+            className="h-full bg-gradient-to-r from-gold-400 to-gold-600 rounded-full transition-all duration-500 ease-out"
             style={{ width: `${progress}%` }}
           />
         </div>
@@ -357,7 +357,7 @@ export default function ContactForm() {
             disabled={!canProceed()}
             className={`px-6 py-3 rounded-xl text-sm font-semibold transition-all duration-200 ${
               canProceed()
-                ? "bg-gold-400 text-ink-900 hover:bg-gold-300 shadow-lg shadow-gold-400/20 hover:scale-[1.02] active:scale-[0.98]"
+                ? "bg-gold-400 text-white hover:bg-gold-300 shadow-lg shadow-gold-400/20 hover:scale-[1.02] active:scale-[0.98]"
                 : "bg-gray-100 text-gray-400 cursor-not-allowed"
             }`}
           >
@@ -370,7 +370,7 @@ export default function ContactForm() {
             disabled={!canProceed()}
             className={`px-8 py-3 rounded-xl text-sm font-semibold transition-all duration-200 ${
               canProceed()
-                ? "bg-gold-400 text-ink-900 hover:bg-gold-300 shadow-lg shadow-gold-400/20 hover:scale-[1.02] active:scale-[0.98]"
+                ? "bg-gold-400 text-white hover:bg-gold-300 shadow-lg shadow-gold-400/20 hover:scale-[1.02] active:scale-[0.98]"
                 : "bg-gray-100 text-gray-400 cursor-not-allowed"
             }`}
           >

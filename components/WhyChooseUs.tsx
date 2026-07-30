@@ -74,7 +74,7 @@ export default function WhyChooseUs() {
           <p className="text-lg text-gray-500 leading-relaxed mb-8">
             Instead of losing customers to slow websites and clunky apps, you
             can immediately see your visitors engaging, converting, and coming
-            back — so you always know how your business is performing online.
+            back so you always know how your business is performing online.
           </p>
           <Link href="/contact" className="btn-gold">
             Let&apos;s Talk

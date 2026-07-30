@@ -43,7 +43,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="shrink-0">
           <Image
-            src="/TD_logo.png"
+            src="/Turkidd.png"
             alt="Turkidd Devs"
             width={70}
             height={70}

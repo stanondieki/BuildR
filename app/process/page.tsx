@@ -10,7 +10,7 @@ import Approach from "@/components/Approach";
 export const metadata: Metadata = {
   title: "Our Process — Turkidd Devs",
   description:
-    "A clear, step-by-step process from idea to launch. No surprises, no guesswork — just a straightforward path to building your digital product.",
+    "A clear, step-by-step process from idea to launch. No surprises, no guesswork just a straightforward path to building your digital product.",
 };
 
 const principles = [
@@ -40,7 +40,7 @@ export default function ProcessPage() {
           label="How We Work"
           breadcrumb="Process"
           title="A Clear Process From Start To Finish"
-          description="No surprises. No guesswork. Just a straightforward path from idea to launch — and beyond."
+          description="No surprises. No guesswork. Just a straightforward path from idea to launch and beyond."
         />
 
         {/* Process image */}

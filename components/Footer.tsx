@@ -18,7 +18,7 @@ export default function Footer() {
           <div>
             <div className="mb-4">
               <Image
-                src="/TD_logo.png"
+                src="/Turkidd.png"
                 alt="Turkidd Devs"
                 width={64}
                 height={64}

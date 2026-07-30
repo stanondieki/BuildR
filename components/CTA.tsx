@@ -58,7 +58,7 @@ export default function CTA() {
             </h2>
             <p className="text-lg text-gray-500 mb-10 leading-relaxed">
               If your business needs a better digital presence a new website, a
-              mobile app, or a complete product redesign — this is where it
+              mobile app, or a complete product redesign this is where it
               starts. Book a consultation and let&apos;s discuss how we can build
               something that works for you.
             </p>

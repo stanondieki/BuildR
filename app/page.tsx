@@ -8,14 +8,10 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import FadeIn from "@/components/FadeIn";
-import ScrollProgress from "@/components/ScrollProgress";
-import BackToTop from "@/components/BackToTop";
-import ChatWidget from "@/components/ChatWidget";
 
 export default function Home() {
   return (
     <>
-      <ScrollProgress />
       <Navbar />
       <main>
         <Hero />
@@ -37,8 +33,6 @@ export default function Home() {
         </FadeIn>
       </main>
       <Footer />
-      <BackToTop />
-      <ChatWidget />
     </>
   );
 }

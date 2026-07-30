@@ -20,7 +20,7 @@ export default function ContactPage() {
           label="Let's Talk"
           breadcrumb="Contact"
           title="Let's Talk About Your Project"
-          description="If your business needs a better digital presence — a new website, a mobile app, or a complete product redesign — this is where it starts."
+          description="If your business needs a better digital presence a new website, a mobile app, or a complete product redesign this is where it starts."
         />
 
         <section className="py-24 md:py-32 bg-white relative overflow-hidden">

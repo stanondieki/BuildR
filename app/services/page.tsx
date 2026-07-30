@@ -17,7 +17,7 @@ const services = [
   {
     title: "Web & App Development",
     description:
-      "We build fast, reliable websites and mobile apps using modern technologies. From landing pages to full SaaS platforms — everything your business needs to operate online.",
+      "We build fast, reliable websites and mobile apps using modern technologies. From landing pages to full SaaS platforms everything your business needs to operate online.",
     features: [
       "Custom websites & web apps",
       "Mobile apps (iOS & Android)",
@@ -49,7 +49,7 @@ const services = [
   {
     title: "Tech Consulting",
     description:
-      "We help you make the right technology decisions. From choosing the right stack to planning your product roadmap — we guide you through the technical landscape.",
+      "We help you make the right technology decisions. From choosing the right stack to planning your product roadmap we guide you through the technical landscape.",
     features: [
       "Technology stack selection",
       "Product roadmap planning",

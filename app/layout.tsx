@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ScrollProgress from "@/components/ScrollProgress";
+import BackToTop from "@/components/BackToTop";
+import ChatWidget from "@/components/ChatWidget";
 
 export const metadata: Metadata = {
   title: "Turkidd Devs — We Build Digital Products That Grow Your Business",
   description:
     "Turkidd Devs builds websites, apps, and digital products that help businesses grow. Web development, UI/UX design, and tech consulting.",
   icons: {
-    icon: "/TD_logo.png",
-    apple: "/TD_logo.png",
+    icon: "/Turkidd.png",
+    apple: "/Turkidd.png",
   },
 };
 
@@ -26,11 +29,16 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        <ScrollProgress />
+        {children}
+        <BackToTop />
+        <ChatWidget />
+      </body>
     </html>
   );
 }
